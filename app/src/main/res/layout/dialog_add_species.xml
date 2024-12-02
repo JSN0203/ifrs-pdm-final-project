@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/specie_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/specie_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description" />
+
+    <EditText
+        android:id="@+id/specie_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Water Frequency (days)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/specie_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Care Instructions" />
+</LinearLayout>

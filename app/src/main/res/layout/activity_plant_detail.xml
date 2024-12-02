@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Nickname Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nickname"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plant Nickname"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Plant nickname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Specie"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/specie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Specie Name"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Plant species" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place Name"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Plant location" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No notes"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Plant notes" />
+
+        <TextView
+            android:id="@+id/last_watering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last watered on: --"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="Last watering date" />
+
+        <TextView
+            android:id="@+id/time_until_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next watering in: --"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Time until next watering" />
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Edit plant details"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/plants"/>
+
+        <Button
+            android:id="@+id/water"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Water the plant"
+            android:backgroundTint="#12355B"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:contentDescription="Delete plant details" />
+
+    </LinearLayout>
+</ScrollView>

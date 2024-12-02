@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnSpecies"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Species"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/species"/>
+
+    <Button
+        android:id="@+id/btnPlaces"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="Places"
+        android:backgroundTint="@color/places"/>
+
+    <Button
+        android:id="@+id/btnPlants"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="Plants"
+        android:backgroundTint="@color/plants"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Logout" />
+
+
+</LinearLayout>
